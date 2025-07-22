@@ -588,7 +588,7 @@ if ($HelpMe -eq $True) { $AdamjOldVerbose = $VerbosePreference; $VerbosePreferen
 
 # Enter your SMTP server name. Example: 'mailserver.domain.local' or 'mail.domain.com' or 'smtp.gmail.com'
 # Note Gmail Settings: smtp.gmail.com Port:587 SSL:Enabled User:user@gmail.com Password (if you use 2FA, make an app password).
-[string]$AdamjMailReportSMTPServer = 'mail.snv.at'
+[string]$AdamjMailReportSMTPServer = 'xxx.yyy.oo'
 
 # Enter your SMTP port number. Example: '25' or '465' (Usually for SSL) or '587' or '1025'
 [int32]$AdamjMailReportSMTPPort = '25'
