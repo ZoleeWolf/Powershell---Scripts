@@ -597,8 +597,8 @@ if ($HelpMe -eq $True) { $AdamjOldVerbose = $VerbosePreference; $VerbosePreferen
 [boolean]$AdamjMailReportSMTPServerEnableSSL = $True
 
 # Do you need to authenticate to the server? If not, leave blank. Note: if your password includes an apostrophe, use 2 apostrophes so that one escapes the other. eg. 'that''s how'
-[string]$AdamjMailReportSMTPServerUsername = 'it@vsml.snv.at'
-[string]$AdamjMailReportSMTPServerPassword = 'vsml12345678'
+[string]$AdamjMailReportSMTPServerUsername = 'xx@oo.yy'
+[string]$AdamjMailReportSMTPServerPassword = '******'
 
 ################################
 #    Configuration Variables   #
